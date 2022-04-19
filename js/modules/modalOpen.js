@@ -1,4 +1,4 @@
-const modalAppearance = () => {
+const modalOpen = () => {
     const popupCall = document.querySelector('.popup-call');
     const callBtns = document.querySelectorAll('.call-btn');
 
@@ -9,4 +9,4 @@ const modalAppearance = () => {
     })
 }
 
-export default modalAppearance;
+export default modalOpen;

@@ -1,4 +1,4 @@
-const formValidation = () => {
+const validation = () => {
     const phoneInputs = document.querySelectorAll('.phone-user');
     const nameInputs = document.querySelectorAll('input[name="user_name"]');
     const numbersPattern = /^[1-9]+[0-9]*$/;
@@ -22,4 +22,4 @@ const formValidation = () => {
     })
 }
 
-export default formValidation;
+export default validation;

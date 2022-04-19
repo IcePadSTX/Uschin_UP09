@@ -1,4 +1,4 @@
-const constructorAccordion = () => {
+const constructor = () => {
     const contructorAccordion = document.getElementById('accordion');
 
     const allConstructorPanels = contructorAccordion.querySelectorAll('.panel');
@@ -21,4 +21,4 @@ const constructorAccordion = () => {
     })
 }
 
-export default constructorAccordion;
+export default constructor;

@@ -1,4 +1,4 @@
-const sendingForm = () => {
+const sendForm = () => {
     const forms = document.querySelectorAll('.capture-form');
     forms.forEach((form) => {
         form.addEventListener('submit', async e => {
@@ -23,4 +23,4 @@ const sendingForm = () => {
     })
 }
 
-export default sendingForm;
+export default sendForm;
