@@ -1,13 +1,13 @@
-import modalOpen from "./modules/modalOpen.js";
+import modalAppearance from "./modules/modalOpen.js";
 import modalClose from "./modules/modalClose.js";
-import validation from "./modules/validation";
-import accordion from "./modules/accordion";
-import sendForm from "./modules/sendForm";
-import constructor from "./modules/constructor";
+import formValidation from "./modules/formValidation.js";
+import accordionsOpening from "./modules/accordionsOpening.js";
+import sendingForm from "./modules/sendingForm.js";
+import constructorAccordion from "./modules/constructorAccordion.js";
 
-modalOpen();
+modalAppearance();
 modalClose();
-validation();
-accordion();
-sendForm();
-constructor();
+formValidation();
+accordionsOpening();
+sendingForm();
+constructorAccordion();

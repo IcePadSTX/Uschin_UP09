@@ -1,4 +1,4 @@
-const accordion = () => {
+const accordionsOpening = () => {
     const accordions = document.querySelectorAll('.panel-group');
 
     accordions.forEach((accordion) => {
@@ -18,4 +18,4 @@ const accordion = () => {
     
 }
 
-export default accordion;
+export default accordionsOpening;
